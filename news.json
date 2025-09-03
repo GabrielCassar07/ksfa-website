@@ -1,0 +1,23 @@
+[
+  {
+    "title": "KSFA Mullet Match 4",
+    "description": "Abela Wins Last Mullet Match.",
+    "image": "images/abela.jpg",
+    "link": "MulletMatch4Winner.html",
+    "date": "2025-08-31"
+  },
+  {
+    "title": "KSFA Colmic Float League 2025",
+    "description": "The most anticipated League.",
+    "image": "images/FloatLeague.jpg",
+    "link": "floatleague.html",
+    "date": "2025-09-02"
+  },
+  {
+    "title": "30 Years Celebration",
+    "description": "It was our pleasure participating in Lejla Safjija yesterday organised by Infrastructure Malta.",
+    "image": "images/ikla.jpg",
+    "link": "ikla.html",
+    "date": "2025-06-30"
+  }
+]

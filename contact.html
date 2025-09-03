@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KSFA - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="images/Logo.png" alt="KSFA Logo"></a>
+    </div>
+  
+    <!-- Hamburger -->
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  
+    <!-- Links -->
+    <nav id="site-nav" class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="calender.html">Calendar</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="about.html">About</a></li>
+        <!-- Remove Contact here if you’re using the top bar only -->
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main class="contact-page">
+    <section class="contact-grid">
+      <!-- LEFT: Quick contact cards -->
+      <div class="contact-info-box">
+        <span class="icon">📞</span>
+        <div>
+          <h4>Call Us</h4>
+          <p><a href="tel:+35677050624">+356 7705 0624 - Andre Borg</a></p>
+          <p><a href="tel:+35679008966">+356 7900 8966 - Kenneth Abela</a></p>
+        </div>
+      </div>
+      
+      <div class="contact-info-box">
+        <span class="icon">✉️</span>
+        <div>
+          <h4>Email</h4>
+          <p><a href="mailto:maltaksfa@gmail.com">maltaksfa@gmail.com</a></p>
+        </div>
+      </div>
+      
+      <div class="contact-info-box">
+        <img src="images/lfblogo.png" alt="Facebook" class="facebook-icon">
+        <div>
+          <h4>Facebook</h4>
+          <a href="https://www.facebook.com/ksfasportsfishing" target="_blank">facebook.com/KSFAMalta</a>
+        </div>
+      </div>
+      
+  
+      <!-- RIGHT: Form -->
+      <div class="contact-form-wrap">
+  <h3>Send us a message</h3>
+  <form class="contact-form" action="https://formsubmit.co/cassargabri07@gmail.com" method="POST">
+    <div class="form-row">
+      <input id="name"   name="name"  type="text"  placeholder="Your Name"  required>
+      <input id="email"  name="email" type="email" placeholder="Your Email" required>
+    </div>
+
+    <input   id="subject" name="subject" type="text" placeholder="Subject" required>
+    <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn-primary">Send Message</button>
+    <p class="form-note">By submitting, you agree we may contact you regarding your message.</p>
+  </form>
+</div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 KSFA - All rights reserved.</p>
+    </footer>
+  </div>
+  </main>
+  
